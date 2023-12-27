@@ -21,7 +21,7 @@ const Comment = ({ comment }) => {
 
 export default function Soal3() {
     return(
-        <div className="container mx-auto p-20">
+        <div className="container mx-auto p-5 lg:p-20">
             <a
                 href="/"
                 className="group rounded-lg border border-transparent px-5 py-4 transition-colors"

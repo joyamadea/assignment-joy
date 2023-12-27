@@ -83,7 +83,7 @@ export default function Soal2() {
       }, [opened]);
 
     return(
-        <div className="p-20">
+        <div className="p-5 sm:p-20">
             <a
                 href="/"
                 className="group rounded-lg border border-transparent px-5 py-4 transition-colors"
