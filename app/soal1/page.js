@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState } from "react";
 
-const Hello = ({x,y,z}) => {
+const Display = ({x,y,z}) => {
     return(
         <>
             <span>X = {x}</span>
@@ -53,8 +53,8 @@ export default function Soal1() {
                 </h2>
             </a>
             
-            <b>Before:</b><Hello x={10} y={20} z={30}/> 
-            <b>After:</b> <Hello x={x} y={y} z={z}/>
+            <b>Before:</b><Display x={10} y={20} z={30}/> 
+            <b>After:</b> <Display x={x} y={y} z={z}/>
         </div>
     )
 }
